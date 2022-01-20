@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RayTest
+comment0.text=\n\ Classe\ RayTest\:\ classe\ "programa"\ que\ comprova\ si\ el\ metode\ cross\ \n\ de\ la\ classe\ Point\ es\ correcte.\ \n\ \n\ @author\ IIP\ -\ Practica\ 5\n\ @version\ Curs\ 2018/19\n
+comment1.params=
+comment1.target=RayTest()
+comment1.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=Metode\ principal
+comment3.params=c
+comment3.target=java.lang.String\ crossToString(int)
+comment3.text=\ Torna\ un\ String\ que\ indica\ l'encreument\ corresponent\ a\ l'enter\ c\ \nd'entre\ els\ 4\ possibles\ (DONT_CROSS,\ LOW_CROSS,\ CROSS\ i\ HIGH_CROSS).
+comment4.params=gd\ p
+comment4.target=void\ drawRay(graph2D.Graph2D,\ Point)
+comment4.text=Dibuixa\ a\ l'espai\ de\ dibuix\ gd\ el\ Point\ p\ i\ el\ seu\ raig.
+numComments=5

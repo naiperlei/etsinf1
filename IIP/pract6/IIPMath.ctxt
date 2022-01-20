@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=IIPMath
+comment0.text=\n\ Classe\ IIPMath\:\ classe\ d'utilitats\ que\ implementa\ algunes\ operacions\ \n\ matematiques\:\ IIPMath.sqrt(double)\ i\ IIPMath.log(double).\n\n\ @author\ IIP\n\ @version\ Curs\ 2018-19\n
+comment1.params=
+comment1.target=IIPMath()
+comment1.text=No\ es\ poden\ crear\ objectes\ d'aquesta\ classe.
+comment2.params=x\ epsilon
+comment2.target=double\ sqrt(double,\ double)
+comment2.text=\n\ Torna\ l'arrel\ quadrada\ de\ x\ >\=\ 0,\ amb\ error\ epsilon\ >\ 0.\ \n\ @param\ x.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @param\ epsilon.\ L'error\ maxim,\ epsilon\ >\ 0.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ maxim\ epsilon.\n
+comment3.params=x
+comment3.target=double\ sqrt(double)
+comment3.text=\n\ Torna\ l'arrel\ quadrada\ de\ x\ >\=\ 0,\ amb\ error\ 1e-15.\ \n\ @param\ x.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ m\u00E0xim\ 1e-15.\n
+comment4.params=z\ epsilon
+comment4.target=double\ logBase(double,\ double)
+comment4.text=\n\ Torna\ log(z),\ 1/2\ <\=\ z\ <\ 1,\ amb\ error\ epsilon\ >\ 0.\n\ @param\ z.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @param\ epsilon.\ L'error\ maxim,\ epsilon\ >\ 0.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ m\u00E0xim\ 1e-15.\n
+comment5.params=x\ epsilon
+comment5.target=double\ log(double,\ double)
+comment5.text=\n\ Torna\ log(x),\ x\ >\ 0,\ amb\ error\ epsilon\ >\ 0.\n\ @param\ z.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @param\ epsilon.\ L'error\ maxim,\ epsilon\ >\ 0.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ m\u00E0xim\ 1e-15.\n
+comment6.params=x
+comment6.target=double\ log(double)
+comment6.text=\n\ Torna\ log(x),\ x\ >\ 0,\ amb\ error\ 1e-15.\n\ //\ COMPLETAR\ COMENTARIS\n
+numComments=7

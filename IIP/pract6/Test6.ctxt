@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Test6
+comment0.text=\n\ Write\ a\ description\ of\ class\ Test6\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ test()
+comment1.text=\ Dibuixar\ IIPMath.log\n\ \ x\ en\ [-1.0\ \:\ +PI*4]\ i\ f(x)\ en\ [-1.10\ \:\ +1.10].\n\ \ Representaci\u00F3\ mitjan\u00E7ant\ punts\ consecutius.\n
+comment2.params=
+comment2.target=void\ test2()
+comment2.text=\ Dibuixar\ IIPMath.log\n\ \ x\ en\ [-1.0\ \:\ +PI*4]\ i\ f(x)\ en\ [-1.10\ \:\ +1.10].\n\ \ Representaci\u00F3\ mitjan\u00E7ant\ punts\ consecutius.\n
+numComments=3

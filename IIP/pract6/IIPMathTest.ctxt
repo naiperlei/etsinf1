@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IIPMathTest
+comment0.text=\n\ Classe\ IIPMathTest\:\ classe\ programa\ que\ permet\ que\ l'usuari\ compare\ el\ valor\ \n\ tornat\ per\ les\ seues\ funcions\ sqrt(x)\ (arrel\ quadrada\ de\ x)\ i\ log(x)\ (logaritme\ \n\ natural\ de\ x)\ amb\ els\ proporcionats\ per\ Java\ en\ la\ seua\ llibreria\ Math.\n\ \n\ @author\ IIP\n\ @version\ Curs\ 2018-19\n
+comment1.params=
+comment1.target=IIPMathTest()
+comment1.text=No\ es\ poden\ crear\ objectes\ d'aquesta\ classe.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
