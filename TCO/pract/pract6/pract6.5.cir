@@ -1,0 +1,22 @@
+* C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract6\pract6.5.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sat May 16 19:56:28 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "pract6.5.net"
+.INC "pract6.5.als"
+
+
+.probe
+
+
+.END

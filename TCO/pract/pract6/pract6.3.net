@@ -1,0 +1,12 @@
+* Schematics Netlist *
+
+
+
+V_VCC         $N_0001 0 5V
+R_Rpu         $N_0002 $N_0001  2k2  
+X_U3A         $N_0003 $N_0002 $G_DPWR $G_DGND 7405 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4A         $N_0004 $N_0002 $G_DPWR $G_DGND 7405 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+V_Va         $N_0003 0 5V
+V_Vb         $N_0004 0 5V

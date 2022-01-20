@@ -1,0 +1,9 @@
+* Schematics Netlist *
+
+
+
+X_U1A         $N_0001 $N_0002 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+V_Vi         $N_0001 0 0V
+R_RL         $N_0002 $N_0003  22k  
+V_Vcc         $N_0003 0 5V
