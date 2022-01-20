@@ -1,0 +1,4 @@
+.model MbreakN-X NMOS Kp=50u Vto=1V 
+*$
+.model MbreakN-X1 NMOS Kp=50u Vto=1V 
+*$

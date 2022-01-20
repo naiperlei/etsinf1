@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PolygonGroup
+comment0.text=\n\ Classe\ PolygonGroup.\ Grup\ de\ poligons\ en\ el\ pla.\n\ Els\ poligons\ estan\ en\ ordre\ segons\ la\ sequencia\ en\ que\ s'afegeixen\n\ al\ grup,\ de\ manera\ que\ es\ considera\ que\ cada\ poligon\ esta\ mes\ \n\ amunt\ en\ el\ grup\ que\ els\ poligons\ anteriors,\ o\ dit\ d'un\ altra\ \n\ manera,\ es\ superposa\ als\ anteriors.\ \n\ Se\ supose\ que\ l'ordre\ del\ grup\ dona\ la\ sequencia\ en\ que\ es\ dibuixen\n\ els\ poligons,\ de\ manera\ que\ cadascun\ es\ dibuixa\ per\ damunt\ dels\n\ anteriors,\ superposant-se\ a\ aquells\ amb\ els\ que\ solape.\n\n\ @author\ IIP\ -\ Parcial\ 2\ -\ Exercici\ 2\ -\ Torn\ 3\n\ @version\ Curs\ 2018/19\n
+comment1.params=
+comment1.target=PolygonGroup()
+comment1.text=\n\ Crea\ un\ grup\ de\ 0\ poligons.\n
+comment2.params=pol
+comment2.target=void\ add(others.Polygon)
+comment2.text=\ Afegeix\ al\ grup,\ damunt\ del\ tot,\ un\ poligon\ donat.\ \n\ \ Si\ s'excedeix\ la\ capacitat\ del\ grup,\ el\ poligon\ \n\ \ no\ s'afegeix.\n\ \ @param\ pol\ Polygon,\ el\ poligon.\n
+comment3.params=p\ incX\ incY
+comment3.target=void\ translateAll(others.Polygon,\ double,\ double)
+comment3.text=\ Trasllada\ en\ el\ pla\ tots\ els\ poligons\ dels\ quals\ el\ numero\ de\ \n\ \ vertexs\ es\ igual\ al\ numero\ de\ vertexs\ d'un\ poligon\ p\ donat.\ \n\ \ Les\ abscisses\ i\ les\ ordenades\ dels\ seus\ vertexs\ s'incrementen\ o\ \n\ \ decrementen\ en\ dos\ valors\ donats.\ El\ metode\ no\ fa\ res\ si\ no\ \n\ \ hi\ ha\ cap\ poligon\ amb\ numero\ de\ vertexs\ igual\ al\ de\ p.\n\ \ @param\ p\ Polygon,\ el\ poligon.\n\ \ @param\ incX\ double,\ l'increment\ o\ decrement\ de\ les\ abscisses.\n\ \ @param\ incY\ double,\ l'increment\ o\ decrement\ de\ les\ ordenades.\n
+numComments=4

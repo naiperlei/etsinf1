@@ -1,0 +1,24 @@
+* C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract5\pract5.3.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sat May 16 18:03:36 2020
+
+
+
+** Analysis setup **
+.tran 1n 100n
+.OP 
+.LIB "C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract5\pract5.3.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "pract5.3.net"
+.INC "pract5.3.als"
+
+
+.probe
+
+
+.END

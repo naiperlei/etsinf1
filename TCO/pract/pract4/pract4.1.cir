@@ -1,0 +1,24 @@
+* C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract4\pract4.1.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sun May 17 13:02:31 2020
+
+
+
+** Analysis setup **
+.DC LIN V_VGS 0V 5V 0.1V 
+.OP 
+.LIB "C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract4\pract4.1.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "pract4.1.net"
+.INC "pract4.1.als"
+
+
+.probe
+
+
+.END

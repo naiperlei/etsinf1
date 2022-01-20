@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IIPMath
+comment0.text=\n\ Classe\ IIPMath.\ Exercici\ 1\ -\ Torn\ 3\n\n\ @author\ IIP\n\ @version\ Parcial\ 2\ -\ Curs\ 2018-19\n
+comment1.params=
+comment1.target=IIPMath()
+comment1.text=No\ es\ poden\ crear\ objectes\ d'aquesta\ classe.
+comment2.params=value
+comment2.target=int\ sumTerms(int)
+comment2.text=\ Torne\ la\ suma\ dels\ termes\ de\ la\ serie\:\n\ \ \ \ \ a_1\ \=\ 2\ \n\ \ \ \ \ a_i\ \=\ a_(i-1)\ +\ 5\ *\ i\n\ \ fins\ que\ l'ultim\ terme\ sumat\ siga\ major\ \n\ \ o\ igual\ que\ value.\n\ \ PRECONDICIO\:\ 0\ <\ value\n
+numComments=3
