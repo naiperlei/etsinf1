@@ -1,0 +1,25 @@
+* C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract8\pract8.2.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sun May 17 11:10:35 2020
+
+
+
+** Analysis setup **
+.DC LIN V_Ve 0V 5V 0.01V 
+.tran 0ns 1500ns
+.OP 
+.LIB "C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract8\pract8.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "pract8.2.net"
+.INC "pract8.2.als"
+
+
+.probe
+
+
+.END

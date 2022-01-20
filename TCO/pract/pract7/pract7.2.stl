@@ -1,0 +1,38 @@
+* C:\Users\naiar\OneDrive\Documentos\NAIARA\ESTUDIO\TCO\pract\pract7\pract7.2.stl written on Sat May 16 21:03:35 2020
+* by Stimulus Editor -- Evaluation Version 9.1
+;!Stimulus Get
+;! C Digital B Digital A Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 4us
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS A STIM (1, 1) ;! CLOCK 4Meg 0.5 0 0
++   +0s 0
++   +125ns 1
++   Repeat Forever
++      +125ns 0
++      +125ns 1
++   EndRepeat
+.STIMULUS B STIM (1, 1) ;! CLOCK 2Meg 0.5 0 0
++   +0s 0
++   +250ns 1
++   Repeat Forever
++      +250ns 0
++      +250ns 1
++   EndRepeat
+.STIMULUS C STIM (1, 1) ;! CLOCK 1Meg 0.5 0 0
++   +0s 0
++   +500ns 1
++   Repeat Forever
++      +500ns 0
++      +500ns 1
++   EndRepeat
+.STIMULUS B STIM (1, 1)
++   +0s Z
+.STIMULUS C STIM (1, 1)
++   +0s Z
+.STIMULUS A STIM (1, 1)
++   +0s Z
