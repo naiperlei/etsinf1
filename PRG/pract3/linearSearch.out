@@ -1,0 +1,6 @@
+# Busqueda lineal. Tiempos en microsegundos
+# Talla       Mejor       Peor     Promedio
+#------------------------------------------
+   10000      0.908      4.841      2.820
+   20000      0.889      7.180      3.558
+   30000      0.911      9.364      5.111
